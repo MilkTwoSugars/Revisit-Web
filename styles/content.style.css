@@ -1,0 +1,81 @@
+.content-container {
+    align-items: center;
+    min-height: calc(100vh - 64px);
+    position: relative;
+    z-index: 1;
+    background-color:#795548;
+    display: flex;
+}
+
+.content-container::after {
+    content: "";
+    background-image: url(../assets/images/background.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+.content {
+    webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 12px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.content-logo-container {
+    background-size: 360px;
+    height: 360px;
+    min-width: 360px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+
+.content-logo {
+    width: 250px;
+    margin: auto;
+}
+
+.content-title-container {
+    margin: auto 48px;
+    width: 60%;
+    color: white;
+}
+
+.content-title {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    margin-bottom: 56px;
+}
+
+.content-button {
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 320px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.content-button-app {
+    background-color: #ff9800;
+}
+
+.content-button-donate {
+    background-color: #f44336;
+}

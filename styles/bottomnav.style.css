@@ -1,0 +1,27 @@
+.bottomnav-container {
+    background: #ad2626;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    height: 64px;
+    width: 100%;
+}
+
+.bottomnav-menu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottomnav-menu-item {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    cursor: pointer;
+}
+
+.bottomnav-menu-item:hover {
+    color: rgb(190, 190, 190);
+}

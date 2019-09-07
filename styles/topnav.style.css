@@ -1,0 +1,21 @@
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #E83635;
+    height: 64px;
+}
+
+.topnav-title-container {
+    margin: 0 auto;
+    max-width: 1065px;
+    min-height: 70px;
+    padding: 0 40px;
+}
+
+.topnav-title {
+    color: white;
+    line-height: 64px;
+    font-size: 42px;
+}
