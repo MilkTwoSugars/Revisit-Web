@@ -11,6 +11,7 @@
     content: "";
     background-image: url(../assets/images/background.svg);
     background-size: cover;
+    background-attachment: fixed;
     /* opacity: 0.75; */
     top: 0;
     left: 0;
@@ -77,5 +78,5 @@
 }
 
 .content-button-donate {
-    background-color: #f44336;
+    background-color: #2196f3;
 }
