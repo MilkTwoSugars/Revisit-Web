@@ -1,3 +1,7 @@
-document.getElementById("goToAppButton").onclick = function () {
-    location.href = "app.revisit.xyz";
-};
+function app() {
+    window.location = "https://app.revisit.xyz";
+}
+
+function patreon() {
+    window.location = "https://www.patreon.com/nightshadeproductionsuk";
+}
