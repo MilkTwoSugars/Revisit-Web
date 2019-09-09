@@ -1,28 +1,15 @@
 @media only screen and (max-width: 900px) {
-    /* .content-title-container {
-        display: none !important;
-    } */
 
     .content {
-        webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
         display: inline-block !important;
     }
 
     .content-title-container {
-        margin: auto 48px;
         width: auto !important;
-        color: white;
     }
 
     .content-logo-container {
-        background-size: 360px;
-        height: 360px;
-        min-width: auto;
         width: auto !important;
-        display: flex;
-        align-items: center;
     }
 
     .content-logo {
