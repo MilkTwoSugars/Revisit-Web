@@ -2,6 +2,7 @@
 
     .content {
         display: inline-block !important;
+padding: 0 !important;
     }
 
     .content-title-container {
