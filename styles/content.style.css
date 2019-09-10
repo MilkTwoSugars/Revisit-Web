@@ -20,7 +20,7 @@
     }
 
     .content-container::after {
-        background-image: none !important;
+        background-size: contain !important;
       }
 
       .content-container {
