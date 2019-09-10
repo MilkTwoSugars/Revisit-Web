@@ -2,7 +2,7 @@
 
     .content {
         display: inline-block !important;
-padding: 0 !important;
+        padding: 0 !important;
     }
 
     .content-title-container {
@@ -25,6 +25,10 @@ padding: 0 !important;
 
       .content-container {
         background-color:#E83635 !important;
+    }
+    
+    .content-button {
+        width: 100% !important;
     }
 
   }
