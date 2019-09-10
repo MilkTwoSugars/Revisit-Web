@@ -1,5 +1,5 @@
 body {
-    position: fixed;
+    position: absolute;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     margin: 0px !important;
