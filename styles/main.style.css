@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+.wrapper {
+ overflow-x: hidden;   
+}
+
 .about-content {
     width: 75%;
     margin-left: auto;
