@@ -16,6 +16,16 @@ body {
     margin-right: auto;
 }
 
+.about-content::selection {
+    background: #F44336;
+    color: white;
+  }
+  
+  .about-content::-moz-selection {
+    background: #F44336;
+    color: white;
+  }
+
 a {
     color: white;
     text-decoration: none;
