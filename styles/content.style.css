@@ -21,6 +21,7 @@
 
     .content-container::after {
         background-size: contain !important;
+        background-image: none !important;
       }
 
       .content-container {
