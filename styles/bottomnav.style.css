@@ -2,6 +2,7 @@
     background: #ad2626;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: flex;
     height: 64px;
     width: 100%;
 }

@@ -1,3 +1,7 @@
+function about() {
+    document.getElementById('bottomnav').scrollIntoView();
+}
+
 function app() {
     window.location = "https://app.revisit.xyz";
 }
