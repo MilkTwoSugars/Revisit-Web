@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main.style.css">
     <link rel="stylesheet" type="text/css" href="styles/topnav.style.css">
     <link rel="stylesheet" type="text/css" href="styles/content.style.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.style.css">
     <link rel="stylesheet" type="text/css" href="styles/bottomnav.style.css">
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Poppins&display=swap" rel="stylesheet">
@@ -16,67 +17,71 @@
 
 <body>
     <div class="wrapper">
-    <div class="topnav">
-        <div class="topnav-title-container">
-            <div class="topnav-title"><img src="assets/images/title.png"></div>
-        </div>
-    </div>
-    <div class="content-container">
-        <div class="content">
-            <div class="content-logo-container"><img class="content-logo" src="assets/images/logo-white.svg"></div>
-            <div class="content-title-container">
-                <h1 class="content-title">Explore and learn on the go</h1>
-                <h1 onclick="app()" class="content-button content-button-app">GO TO APP</h1>
-                <h1 onclick="patreon()" class="content-button content-button-donate">SUPPORT US</h1>
+        <div class="topnav">
+            <div class="topnav-title-container">
+                <div class="topnav-title"><img src="assets/images/title.png"></div>
             </div>
         </div>
-    </div>
-    <div class="bottomnav-container">
-        <div class="bottomnav-menu">
-            <div class="bottomnav-menu-item">ABOUT</div>
-            <div onclick="patreon()" class="bottomnav-menu-item">DONATE</div>
-            <div class="bottomnav-menu-item">CONTACT</div>
+        <div class="content-container">
+            <div class="content">
+                <div class="content-logo-container"><img class="content-logo" src="assets/images/logo-white.svg"></div>
+                <div class="content-title-container">
+                    <h1 class="content-title">Explore and learn on the go</h1>
+                    <h1 onclick="app()" class="content-button content-button-app">GO TO APP</h1>
+                    <h1 onclick="patreon()" class="content-button content-button-donate">SUPPORT US</h1>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- <h1 class="about-content">About</h1>
-    <p class="about-content">
-        
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan at libero vitae convallis. Mauris
-        sollicitudin ex a gravida ultrices. Mauris facilisis, nulla eget bibendum vestibulum, felis turpis vehicula
-        eros, at ultricies ex arcu a nunc. Suspendisse lobortis ultrices porttitor. Morbi fringilla, sem ac aliquam
-        pharetra, metus urna elementum turpis, quis pharetra ipsum nibh nec ex. Nullam sagittis elit eu nisi pulvinar,
-        tempus porta risus sagittis. Donec vel iaculis lorem. Proin non pretium nisi. Proin non neque egestas urna
-        pretium dapibus quis sit amet risus. Vivamus facilisis scelerisque arcu sit amet condimentum. Vivamus sed
-        vestibulum lorem.
-    </p>
-    <p class="about-content">
-        Suspendisse potenti. Curabitur varius, ligula eu mollis pulvinar, nunc felis elementum ligula, in scelerisque
-        nisl metus sit amet sapien. Nam sagittis ante semper, vestibulum urna at, tristique ex. Maecenas rutrum ipsum
-        hendrerit nunc facilisis luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Integer sed orci non massa hendrerit gravida. Vestibulum ante ipsum primis in faucibus orci
-        luctus et ultrices posuere cubilia Curae; Phasellus aliquam, nisi sed molestie lobortis, magna arcu porttitor
-        dui, eget luctus nulla libero id leo.
-    </p>
-    <p class="about-content">
-        Sed posuere sapien quis venenatis vehicula. Sed id finibus urna, sit amet elementum massa. Cras facilisis
-        tristique suscipit. Nunc nec tincidunt ligula. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. Etiam sagittis feugiat iaculis. Vestibulum vel leo sit amet sem feugiat
-        iaculis.
-    </p>
-    <p class="about-content">
-        Aliquam consectetur nulla et neque elementum, et elementum leo vestibulum. Donec egestas tortor vel lobortis
-        posuere. Duis pellentesque sed ante quis sollicitudin. Nulla molestie malesuada aliquet. Cras sagittis a purus
-        et dignissim. Maecenas placerat odio vitae semper venenatis. Aenean mi nisl, aliquet a molestie vitae, volutpat
-        ut arcu. Curabitur dignissim lorem id laoreet rhoncus. Sed laoreet viverra metus sit amet tempus. Nulla euismod
-        quam quis condimentum viverra. Fusce interdum id nunc id hendrerit. Sed sed arcu elit. Nam lacinia urna eget
-        euismod consectetur. Sed venenatis condimentum quam ac laoreet.
-    </p>
-    <p class="about-content">
-        Mauris sit amet tellus sed urna dignissim mollis dignissim eu dolor. Interdum et malesuada fames ac ante ipsum
-        primis in faucibus. Duis vulputate mollis commodo. Nulla aliquam gravida convallis. Pellentesque eget mollis
-        nulla. Ut vel nulla commodo, imperdiet diam et, commodo massa. Maecenas ut diam interdum, ultricies massa vitae,
-        fermentum ante.
-    </p> -->
-</body>
+        <div class="bottomnav-container">
+            <div class="bottomnav-menu">
+                <div class="bottomnav-menu-item">ABOUT</div>
+                <div onclick="patreon()" class="bottomnav-menu-item">DONATE</div>
+                <div class="bottomnav-menu-item">CONTACT</div>
+            </div>
+        </div>
+        <div class="about-content-container">
 
+            <div class="about-content-section">
+                <div class="about-content-image">🌍</div>
+                <div class="about-content-text">
+                    <h1 class="about-content-title">Explore</h1>
+                    <div class="about-content-blurb">
+                        Pick a tour you like and use the dynamic map to visit locations around the city of York.
+                        Find your way through a new city in a way you’ve never experienced before.
+                    </div>
+                </div>
+            </div>
+            <div class="about-content-section">
+                <div class="about-content-image">🎁</div>
+                <div class="about-content-text">
+                    <h1 class="about-content-title">Unlock</h1>
+                    <div class="about-content-blurb">
+                        Unlock videos and achievements at each location, or try Relaxed Mode and view everything at your
+                        leisure in a local cafe or park.
+                    </div>
+                </div>
+            </div>
+            <div class="about-content-section">
+                <div class="about-content-image-temp">🏫</div>
+                <div class="about-content-text">
+                    <h1 class="about-content-title">Learn</h1>
+                    <div class="about-content-blurb">
+                        Discover local history and learn about the city of York. Let our historians guide you through
+                        the city's fascinating past.
+                    </div>
+                </div>
+            </div>
+            <div class="about-content-section">
+                <div class="about-content-image">👍</div>
+                <div class="about-content-text">
+                    <h1 class="about-content-title">About Us</h1>
+                    <div class="about-content-blurb">
+                        We’re a small group of historians and tech developers who love the city,
+                        its culture and its history.
+                        Try our app today and let us share it with you!
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
 </html>
