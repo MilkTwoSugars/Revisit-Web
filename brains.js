@@ -3,7 +3,7 @@ function about() {
 }
 
 function app() {
-    window.location = "https://app.revisit.xyz";
+    window.location = "https://revisit-app.com";
 }
 
 function patreon() {
